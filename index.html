@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIOS</title>
+</head>
+<body>
+    <h1>trabalhando com formulário</h1>
+    <form action="irparabeckend.php" method="post">
+        <label for="nome"> nome: </label><input type="text" name="nome" id="nome" placeholder="nome completo"> <br>
+      <label for="senha"> senha: </label> <input type="password" name="senha" id="senha" placeholder="deve conter numeros"> <br>
+        <input type="radio" name="sexo" value="m" id="macho"><label for="macho">macho</label><br>
+        <input type="radio" name="sexo" value="f" id="femea"><label for="femea">femea</label><br>
+        quais esportes vc pratica?<br>
+        <input type="checkbox" name="esporte1" value="fut" id="fut"><label for="fut">fut</label><br>
+        <input type="checkbox" name="esporte2" value="sex" id="sex"><label for="sex">sexo</label><br>
+        <input type="checkbox" name="esporte3" value="basca" id="basca"><label for="basca">basquete</label><br>
+        <input type="checkbox" name="esporte4" value="nd" id="nd"><label for="nd">sedentário igual ao leozão</label><br>
+        <select name="cdd">
+            <optgroup label="inferno">
+            <option value="1">casa do crl</option>
+            <option value="2">casa do chapeu</option>
+            <option value="3">casa do henrique</option>
+            </optgroup>
+            <optgroup label="cidade normais">
+            <option value="4">verissimo</option>
+            <option value="5">araxa</option>
+            <option value="6">uberaba</option>
+            </optgroup>
+        </select><br><br><br><br>
+    
+<input type="submit" value="OK"><br>
+    </form>
+    
+</body>
+</html>
